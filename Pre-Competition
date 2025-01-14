@@ -3,13 +3,17 @@
 //Program: Pre-Competition
 //Hardware: Bolt #CF6D
 
-//Start
-//Bolt will say Start acrossed the LED's\
+//Start and Say Start
+//Bolt will say Start acrossed the LED's & say it our loud
 //Driver:Evan
 //Navigator:Everley
 
 
+async function startProgram() {
 
+await setDisplayText(`Start!`, { r: 255, g: 255, b: 255 }, { r: 0, g: 0, b: 0 }, 0
+
+}
 
 
 //Red
@@ -23,10 +27,3 @@
 //Forward & turn 90 degrees and forward again
 //Driver:Evan
 //Navigator:Everley
-
-
-
-
-//Play Sound
-//Driver:Everley
-//Navigator:Evan
