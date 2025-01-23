@@ -5,7 +5,7 @@
 
 //Begin Program
 async function startProgram() {
-/*
+
 //Start and Say Start
 //Bolt will say Start acrossed the LED's & say it our loud
 //Driver:Evan
@@ -36,7 +36,7 @@ async function startProgram() {
 //Navigator:Evan
 
 	await Sound.Animal.Monkey.play(true);
-*/
+
 
 //Figure Eight
 //Driver: Evan
