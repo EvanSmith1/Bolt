@@ -10,31 +10,23 @@ async function startProgram() {
 //Bolt will say Start acrossed the LED's & say it our loud
 //Driver:Evan
 //Navigator:Everley
-
-
 	await scrollMatrixText('Start!', { r: 43, g: 211, b: 255 }, 15, true);
 	await speak("Start", true);
-
-
 //Red
 //Bolt LED will turn Red
 //Driver:Everley
 //Navigator:Evan
-
  	setMainLed({ r: 255, g: 0, b: 0 });
 //Forward & turn 90 degrees and forward again
 //Driver:Evan
 //Navigator:Everley
-
 	setSpeed(60);
 	await delay (2);
 	setSpeed(0);
 	await roll((getHeading() + 90), 60, 2);
-
 //Play Sound
 //Driver:Everley
 //Navigator:Evan
-
 	await Sound.Animal.Monkey.play(true);
 
 
