@@ -77,8 +77,12 @@ async function startProgram() {
 //Driver:Evan
 //Navigator:Everley
 
-
-
+	setSpeed(28);
+	await delay (1);
+	setSpeed(0);
+	await delay (1);
+	await roll((getHeading() + 60), 28, 2);
+	setMainLed({ r: 255, g: 0, b: 255 });
 
 //Sound #3 Checkpoint
 //Bolt makes sound of choice - Update Sound
